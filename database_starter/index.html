@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>database starter</title>
+  <link rel="stylesheet" href="css/database.css">
+</head>
+<body>
+  <h1>starter code for database</h1>
+  <p>Use this to start a database project in Micromedia</p>
+  <p>This project uses: </p>
+  <ul>
+    <li>php / mySQL</li>
+    <li>AJAX</li>
+    <li>json</li>
+    <li>pure javascript</li>
+    <li>and of course html & css</li>
+  </ul>
+  <p>We'll use javascript to call a php file via AJAX that will output json.</p>
+  <p>Then the javasript will create elements to display info on the page.</p>
+  <h3>raw JSON</h3>
+  <section id="display-json">display-json</section>
+  <h3>list of users and their favourite colours</h3>
+  <section id="users-list">users-list</section>
+
+  <h3>add to the database</h3>
+  <section id="form-section">
+    <form id="starter-form">
+      <label for="username">User Name</label>
+      <input type="text" name="username" id="username"
+        placeholder="username" required autocomplete="username" >
+      
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name"
+        placeholder="Full Name" required autocomplete="name" >
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email"
+        placeholder="name@example.com" required autocomplete="email" >
+
+
+      <label for="colour">Colour</label>
+      <input type="tel" name="colour" id="colour"
+        placeholder="colour?" required >
+      <input type="submit" value="share your colour" id="submit-button"/>
+    </form>
+  </section>
+
+  <script src="js/database.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* database.css */
+
+
+html {
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+form label, form input{
+  display: block;
+}
+form input, #submit-button{
+  margin: 0 0 1em 0.5em;
+  font-size: 1.4em;
+  width: 20em;
+}
